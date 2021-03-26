@@ -9,7 +9,6 @@ todos = [
 ]
 
 @app.route('/todos', methods=['GET'])
-
 def hello_world():
     return (jsonify(todos))
 
